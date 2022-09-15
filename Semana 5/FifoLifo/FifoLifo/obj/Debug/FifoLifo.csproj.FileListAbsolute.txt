@@ -1,0 +1,11 @@
+C:\Users\salvi\OneDrive\Escritorio\OpenBootCamp\API .NET\FifoLifo\FifoLifo\bin\Debug\FifoLifo.exe.config
+C:\Users\salvi\OneDrive\Escritorio\OpenBootCamp\API .NET\FifoLifo\FifoLifo\bin\Debug\FifoLifo.exe
+C:\Users\salvi\OneDrive\Escritorio\OpenBootCamp\API .NET\FifoLifo\FifoLifo\bin\Debug\FifoLifo.pdb
+C:\Users\salvi\OneDrive\Escritorio\OpenBootCamp\API .NET\FifoLifo\FifoLifo\obj\Debug\FifoLifo.csproj.AssemblyReference.cache
+C:\Users\salvi\OneDrive\Escritorio\OpenBootCamp\API .NET\FifoLifo\FifoLifo\obj\Debug\FifoLifo.csproj.SuggestedBindingRedirects.cache
+C:\Users\salvi\OneDrive\Escritorio\OpenBootCamp\API .NET\FifoLifo\FifoLifo\obj\Debug\FifoLifo.MainForm.resources
+C:\Users\salvi\OneDrive\Escritorio\OpenBootCamp\API .NET\FifoLifo\FifoLifo\obj\Debug\FifoLifo.Properties.Resources.resources
+C:\Users\salvi\OneDrive\Escritorio\OpenBootCamp\API .NET\FifoLifo\FifoLifo\obj\Debug\FifoLifo.csproj.GenerateResource.cache
+C:\Users\salvi\OneDrive\Escritorio\OpenBootCamp\API .NET\FifoLifo\FifoLifo\obj\Debug\FifoLifo.csproj.CoreCompileInputs.cache
+C:\Users\salvi\OneDrive\Escritorio\OpenBootCamp\API .NET\FifoLifo\FifoLifo\obj\Debug\FifoLifo.exe
+C:\Users\salvi\OneDrive\Escritorio\OpenBootCamp\API .NET\FifoLifo\FifoLifo\obj\Debug\FifoLifo.pdb
