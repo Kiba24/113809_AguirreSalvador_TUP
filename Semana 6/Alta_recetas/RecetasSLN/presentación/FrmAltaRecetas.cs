@@ -28,7 +28,7 @@ namespace RecetasSLN.presentación
         private void FrmAltaRecetas_Load(object sender, EventArgs e)
         {
             contadorDetalles = 0;
-            lblReceta.Text += servicioReceta.ProximaReceta().ToString();
+            lblReceta.Text = servicioReceta.ProximaReceta().ToString();
             CargarCombo();
             r = new Receta();
         }
@@ -132,6 +132,21 @@ namespace RecetasSLN.presentación
         }
         #endregion
 
+        private void LimpiarCampos()
+        {
+            txtChef.Text = "";
+            txtNombre.Text = "";
+            cbReceta.SelectedIndex = 0;
+            CbIngrediente.SelectedIndex = 0;
+            NumCantidad.Value = 0;
+            dgvIngredientes.Rows.Clear();
+            lblReceta.Text = servicioReceta.ProximaReceta().ToString();
+            contadorDetalles = 0;
+            lblTotalIng.Text = contadorDetalles.ToString();
+            txtNombre.Focus();
+            
+        }
+
         private void NumCantidad_ValueChanged(object sender, EventArgs e)
         {
 
@@ -159,7 +174,13 @@ namespace RecetasSLN.presentación
 
                 MessageBox.Show("Receta Agregada Correctamente", "ENHORABUENA"
                    , MessageBoxButtons.OK, MessageBoxIcon.Information);
+                LimpiarCampos();
             }
+        }
+
+        private void lblReceta_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

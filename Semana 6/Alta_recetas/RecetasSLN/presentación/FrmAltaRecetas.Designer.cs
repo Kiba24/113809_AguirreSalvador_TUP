@@ -45,6 +45,7 @@
             this.lblReceta = new System.Windows.Forms.Label();
             this.lblTotalIng = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.NumCantidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvIngredientes)).BeginInit();
             this.SuspendLayout();
@@ -54,14 +55,14 @@
             this.txtNombre.Location = new System.Drawing.Point(177, 107);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(331, 22);
-            this.txtNombre.TabIndex = 0;
+            this.txtNombre.TabIndex = 1;
             // 
             // txtChef
             // 
             this.txtChef.Location = new System.Drawing.Point(177, 135);
             this.txtChef.Name = "txtChef";
             this.txtChef.Size = new System.Drawing.Size(331, 22);
-            this.txtChef.TabIndex = 1;
+            this.txtChef.TabIndex = 2;
             // 
             // CbIngrediente
             // 
@@ -69,7 +70,7 @@
             this.CbIngrediente.Location = new System.Drawing.Point(42, 242);
             this.CbIngrediente.Name = "CbIngrediente";
             this.CbIngrediente.Size = new System.Drawing.Size(211, 24);
-            this.CbIngrediente.TabIndex = 2;
+            this.CbIngrediente.TabIndex = 4;
             // 
             // cbReceta
             // 
@@ -84,7 +85,7 @@
             this.NumCantidad.Location = new System.Drawing.Point(259, 242);
             this.NumCantidad.Name = "NumCantidad";
             this.NumCantidad.Size = new System.Drawing.Size(237, 22);
-            this.NumCantidad.TabIndex = 4;
+            this.NumCantidad.TabIndex = 5;
             // 
             // dgvIngredientes
             // 
@@ -98,7 +99,7 @@
             this.dgvIngredientes.RowHeadersWidth = 51;
             this.dgvIngredientes.RowTemplate.Height = 24;
             this.dgvIngredientes.Size = new System.Drawing.Size(588, 150);
-            this.dgvIngredientes.TabIndex = 5;
+            this.dgvIngredientes.TabIndex = 7;
             // 
             // Col_Ingrediente
             // 
@@ -119,7 +120,7 @@
             this.btnAceptar.Location = new System.Drawing.Point(217, 481);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(92, 31);
-            this.btnAceptar.TabIndex = 6;
+            this.btnAceptar.TabIndex = 8;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
@@ -129,7 +130,7 @@
             this.BtnCancelar.Location = new System.Drawing.Point(315, 481);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(92, 31);
-            this.BtnCancelar.TabIndex = 7;
+            this.BtnCancelar.TabIndex = 9;
             this.BtnCancelar.Text = "Cancelar";
             this.BtnCancelar.UseVisualStyleBackColor = true;
             this.BtnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
@@ -139,7 +140,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(502, 240);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(102, 24);
-            this.btnAgregar.TabIndex = 8;
+            this.btnAgregar.TabIndex = 6;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -150,7 +151,7 @@
             this.lblNombre.Location = new System.Drawing.Point(112, 107);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(59, 16);
-            this.lblNombre.TabIndex = 9;
+            this.lblNombre.TabIndex = 0;
             this.lblNombre.Text = "Nombre:";
             // 
             // lblChef
@@ -159,7 +160,7 @@
             this.lblChef.Location = new System.Drawing.Point(134, 138);
             this.lblChef.Name = "lblChef";
             this.lblChef.Size = new System.Drawing.Size(37, 16);
-            this.lblChef.TabIndex = 10;
+            this.lblChef.TabIndex = 0;
             this.lblChef.Text = "Chef:";
             // 
             // lblTipoRec
@@ -168,18 +169,19 @@
             this.lblTipoRec.Location = new System.Drawing.Point(67, 166);
             this.lblTipoRec.Name = "lblTipoRec";
             this.lblTipoRec.Size = new System.Drawing.Size(104, 16);
-            this.lblTipoRec.TabIndex = 11;
+            this.lblTipoRec.TabIndex = 0;
             this.lblTipoRec.Text = "Tipo de Receta:";
             // 
             // lblReceta
             // 
             this.lblReceta.AutoSize = true;
             this.lblReceta.Font = new System.Drawing.Font("Lucida Sans Unicode", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReceta.Location = new System.Drawing.Point(79, 27);
+            this.lblReceta.Location = new System.Drawing.Point(191, 27);
             this.lblReceta.Name = "lblReceta";
-            this.lblReceta.Size = new System.Drawing.Size(149, 31);
-            this.lblReceta.TabIndex = 12;
-            this.lblReceta.Text = "RECETA #:";
+            this.lblReceta.Size = new System.Drawing.Size(31, 31);
+            this.lblReceta.TabIndex = 0;
+            this.lblReceta.Text = "0";
+            this.lblReceta.Click += new System.EventHandler(this.lblReceta_Click);
             // 
             // lblTotalIng
             // 
@@ -187,7 +189,7 @@
             this.lblTotalIng.Location = new System.Drawing.Point(590, 425);
             this.lblTotalIng.Name = "lblTotalIng";
             this.lblTotalIng.Size = new System.Drawing.Size(14, 16);
-            this.lblTotalIng.TabIndex = 13;
+            this.lblTotalIng.TabIndex = 0;
             this.lblTotalIng.Text = "0";
             // 
             // label1
@@ -196,14 +198,25 @@
             this.label1.Location = new System.Drawing.Point(447, 425);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(137, 16);
-            this.label1.TabIndex = 14;
+            this.label1.TabIndex = 0;
             this.label1.Text = "Total de Ingredientes:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Lucida Sans Unicode", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(36, 27);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(149, 31);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "RECETA #:";
             // 
             // FrmAltaRecetas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(662, 520);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblTotalIng);
             this.Controls.Add(this.lblReceta);
@@ -220,7 +233,7 @@
             this.Controls.Add(this.txtChef);
             this.Controls.Add(this.txtNombre);
             this.Name = "FrmAltaRecetas";
-            this.Text = "FrmAltaRecetas";
+            this.Text = "E";
             this.Load += new System.EventHandler(this.FrmAltaRecetas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.NumCantidad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvIngredientes)).EndInit();
@@ -248,5 +261,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Col_Ingrediente;
         private System.Windows.Forms.DataGridViewTextBoxColumn Col_Cantidad;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
