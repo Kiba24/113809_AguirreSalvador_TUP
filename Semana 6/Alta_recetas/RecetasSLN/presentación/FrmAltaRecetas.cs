@@ -77,7 +77,7 @@ namespace RecetasSLN.presentación
 
             for (int i = 0; i < r.ldetalles.Count; i++)
             {
-                dgvIngredientes.Rows.Add(r.ldetalles[i].cantidad, r.ldetalles[i].ingrediente.nombre);
+                dgvIngredientes.Rows.Add( r.ldetalles[i].ingrediente.nombre, r.ldetalles[i].cantidad);
             }
         }
 
@@ -179,6 +179,16 @@ namespace RecetasSLN.presentación
         }
 
         private void lblReceta_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CbIngrediente_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvIngredientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

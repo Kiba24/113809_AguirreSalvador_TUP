@@ -71,10 +71,14 @@
             this.CbIngrediente.Name = "CbIngrediente";
             this.CbIngrediente.Size = new System.Drawing.Size(211, 24);
             this.CbIngrediente.TabIndex = 4;
+            this.CbIngrediente.SelectedIndexChanged += new System.EventHandler(this.CbIngrediente_SelectedIndexChanged);
             // 
             // cbReceta
             // 
             this.cbReceta.FormattingEnabled = true;
+            this.cbReceta.Items.AddRange(new object[] {
+            "uno",
+            "dos"});
             this.cbReceta.Location = new System.Drawing.Point(177, 163);
             this.cbReceta.Name = "cbReceta";
             this.cbReceta.Size = new System.Drawing.Size(193, 24);
@@ -100,6 +104,7 @@
             this.dgvIngredientes.RowTemplate.Height = 24;
             this.dgvIngredientes.Size = new System.Drawing.Size(588, 150);
             this.dgvIngredientes.TabIndex = 7;
+            this.dgvIngredientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvIngredientes_CellContentClick);
             // 
             // Col_Ingrediente
             // 

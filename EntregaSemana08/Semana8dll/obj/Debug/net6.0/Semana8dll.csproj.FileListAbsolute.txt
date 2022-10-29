@@ -1,0 +1,12 @@
+C:\Users\salvi\OneDrive\Escritorio\Programas Mios\EntregaSemana08\Semana8dll\bin\Debug\net6.0\Semana8dll.deps.json
+C:\Users\salvi\OneDrive\Escritorio\Programas Mios\EntregaSemana08\Semana8dll\bin\Debug\net6.0\Semana8dll.dll
+C:\Users\salvi\OneDrive\Escritorio\Programas Mios\EntregaSemana08\Semana8dll\bin\Debug\net6.0\Semana8dll.pdb
+C:\Users\salvi\OneDrive\Escritorio\Programas Mios\EntregaSemana08\Semana8dll\obj\Debug\net6.0\Semana8dll.csproj.AssemblyReference.cache
+C:\Users\salvi\OneDrive\Escritorio\Programas Mios\EntregaSemana08\Semana8dll\obj\Debug\net6.0\Semana8dll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salvi\OneDrive\Escritorio\Programas Mios\EntregaSemana08\Semana8dll\obj\Debug\net6.0\Semana8dll.AssemblyInfoInputs.cache
+C:\Users\salvi\OneDrive\Escritorio\Programas Mios\EntregaSemana08\Semana8dll\obj\Debug\net6.0\Semana8dll.AssemblyInfo.cs
+C:\Users\salvi\OneDrive\Escritorio\Programas Mios\EntregaSemana08\Semana8dll\obj\Debug\net6.0\Semana8dll.csproj.CoreCompileInputs.cache
+C:\Users\salvi\OneDrive\Escritorio\Programas Mios\EntregaSemana08\Semana8dll\obj\Debug\net6.0\Semana8dll.dll
+C:\Users\salvi\OneDrive\Escritorio\Programas Mios\EntregaSemana08\Semana8dll\obj\Debug\net6.0\refint\Semana8dll.dll
+C:\Users\salvi\OneDrive\Escritorio\Programas Mios\EntregaSemana08\Semana8dll\obj\Debug\net6.0\Semana8dll.pdb
+C:\Users\salvi\OneDrive\Escritorio\Programas Mios\EntregaSemana08\Semana8dll\obj\Debug\net6.0\ref\Semana8dll.dll
